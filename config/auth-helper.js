@@ -9,7 +9,6 @@ function protectedRoute(req, res, next) {
 //used to set the nav-header isLoggedIn ejs variable
 function GlobalResAuthenticateChecker(req, res, next) {
   res.locals.authenticated = req.isAuthenticated();
-  console.log("In middleware: ", res.locals.authenticated);
   next();
 }
 

@@ -1,0 +1,10 @@
+/* helper for all elements, all before ele and all after ele*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* makes sizing easier if have margin or padding on there elements*/
+}
+
+body {
+  background: silver;
+}
